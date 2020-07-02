@@ -7,4 +7,4 @@ print("The area of the circle with radius ",r," is:",area)
 """Filename extension"""
 filename=input("Enter a filename")
 ext=filename.split(".")
-print("Extension of the file ",filename," is ",ext)
+print("Extension of the file ",filename," is ",ext[1])
