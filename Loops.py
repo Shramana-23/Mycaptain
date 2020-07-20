@@ -9,3 +9,15 @@ while c<n:
     i=j
     j=x
     c+=1
+
+    
+    
+"""POSITIVE NUMBERS IN LIST"""
+lst=[]
+n=int(input("Enter the number of elements"))
+for i in range(0,n):
+    x=int(input())
+    lst.append(x)
+for j in lst:
+    if j>0:
+        print(j)
